@@ -1,0 +1,15 @@
+{
+  "success": "true",
+  "message": "获取蜜罐数据成功",
+  "data": {
+   "user_gray": { //用户灰度信息
+     "user_phone": "18229967576", //灰度手机号码
+     "contacts_class1_blacklist_cnt": "0",   //直接联系人在黑名单的数量
+     "contacts_class2_blacklist_cnt": "123", //间接联系人在黑名单的数量
+     "phone_gray_score": "1",  //手机号码灰度分数（可能的值为null ,0~100,参考分数为60分以上）
+     "contacts_class1_cnt":"30",//一阶联系人总数
+     "contacts_router_cnt":"5",//引起二阶黑名单人数
+     "contacts_router_ratio":"0.167"//引起占比=引起二阶黑名单人数/一阶联系人总数
+     }
+   }
+ }
